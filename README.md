@@ -39,6 +39,7 @@ Sub-agents are specialized AI assistants in Claude Code that focus on specific d
 - **[refactoring-expert](./refactoring-expert.md)** - Technical debt reduction and design pattern implementation
 - **[error-detective](./error-detective.md)** - Bug analysis, root cause identification, and fix implementation
 - **[dependency-manager](./dependency-manager.md)** - Safe dependency updates and compatibility verification
+- **[mindful-dev](./mindful-dev.md)** - Thoughtful development with educational focus, breaking down complex tasks into digestible learning steps
 
 ### 📚 Documentation & Release
 - **[tech-writer](./tech-writer.md)** - Technical documentation, API docs, and user guides
@@ -167,7 +168,7 @@ cp *.md ~/.claude/agents/
 Check that agents are available:
 ```bash
 ls ~/.claude/agents/
-# Should show all 24 agent files
+# Should show all 25 agent files
 ```
 
 ## Integration with Claude Code
@@ -227,6 +228,7 @@ For issues, questions, or contributions:
 | Bug Fixing | `error-detective` | `code-reviewer` |
 | Documentation | `tech-writer` | `code-commentator` |
 | Deployment | `cicd-engineer` | `docker-specialist`, `iac-expert` |
+| Learning & Education | `mindful-dev` | `tech-writer`, `code-commentator` |
 
 ---
 
